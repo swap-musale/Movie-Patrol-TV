@@ -1,4 +1,4 @@
-package com.example.composefortv
+package com.movie.patrol
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.core.view.WindowCompat
 import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.Surface
-import com.example.composefortv.ui.theme.ComposeForTvTheme
+import com.movie.patrol.ui.theme.MoviePatrolTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContent {
-            ComposeForTvTheme {
+            MoviePatrolTheme {
                 Surface(
                     shape = RectangleShape,
                     modifier = Modifier.fillMaxSize(),

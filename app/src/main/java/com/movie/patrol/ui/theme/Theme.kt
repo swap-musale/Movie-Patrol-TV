@@ -1,4 +1,4 @@
-package com.example.composefortv.ui.theme
+package com.movie.patrol.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
@@ -9,7 +9,7 @@ import androidx.tv.material3.lightColorScheme
 
 @OptIn(ExperimentalTvMaterial3Api::class)
 @Composable
-fun ComposeForTvTheme(
+fun MoviePatrolTheme(
     useDarkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit,
 ) {

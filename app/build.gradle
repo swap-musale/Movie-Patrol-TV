@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.composefortv'
+    namespace 'com.movie.patrol'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.composefortv"
+        applicationId "com.movie.patrol"
         minSdk 21
         targetSdk 33
         versionCode 1

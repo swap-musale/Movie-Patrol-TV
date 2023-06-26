@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.movie.patrol'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.movie.patrol"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
@@ -46,6 +46,7 @@ dependencies {
 
     implementation libs.core.ktx
     implementation libs.activity.compose
+    implementation libs.androidx.splashScreen
     implementation libs.compose.navigation
 
     implementation libs.bundles.androidx.compose.bom

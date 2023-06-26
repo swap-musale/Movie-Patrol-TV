@@ -3,4 +3,12 @@
     <style name="Theme.BaseTheme" parent="">
         <item name="android:windowNoTitle">true</item>
     </style>
+    
+    <style name="Theme.SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/jetpack_compose_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.BaseTheme</item>
+    </style>
+
 </resources>
